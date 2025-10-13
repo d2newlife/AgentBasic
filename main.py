@@ -58,7 +58,7 @@ print("...............................\n")
 
 """
 A couple of issues the raw response various, sometimes output will be a key value pair, sometimes a list of key value pairs.
-The agent seems to use the tool regeardless of whether it is needed or not.
+The agent seems to use the tool regardless of whether it is needed or not.
 """
 try:
     structured_response = parser.parse(raw_response["output"])
